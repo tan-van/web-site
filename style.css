@@ -1,8 +1,9 @@
-body{ 
-    max-width: fit-content;
-    max-height: fit-content;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
-    color: aliceblue;
-    background-color: rgb(27, 44, 63);
+body {
+  max-width: fit-content;
+  max-height: fit-content;
+  font-family: "MesloLGS NerdFont Mono";
+  font-size: large;
+  color: aliceblue;
+  background-color: rgb(27, 44, 63);
 }
+
