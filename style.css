@@ -1,19 +1,46 @@
 body {
   max-width: fit-content;
-  max-height: fit-content;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
-  color: #eeeeee;
-  background-color: #0c090a;
-}
-
-li {
-  list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 20%;
-  background-color: #0c090a;
-  height: 100%;
+  max-height: fit-content;
+  min-height: 100vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: large;
+  color: #a4ffda;
+  background-color: #00162c;
+}
+
+#navbar {
+  margin: 10px;
+  width: 200px;
+  background-color: #001a44;
+  height: fit-content;
+  border-radius: 10px;
   position: fixed;
-  overflow: auto;
+  overflow: scroll;
+  font-size: x-large;
+  text-decoration: none;
+}
+#main-content {
+  margin-left: 200px;
+  padding: 50px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: #a4ffda;
+}
+
+a:link {
+  color: #a4ffda;
+}
+
+a:hover {
+  font-size: 115%;
 }
